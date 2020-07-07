@@ -1,0 +1,20 @@
+ul.navbar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 78vw;
+    margin: auto;
+    list-style: none;
+    border: 2px black solid;
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(0, 0, 0, 0.4); 
+    
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: x-large;
+}
+a:hover{
+    color: rgba(170, 46, 15, 0.8);
+}

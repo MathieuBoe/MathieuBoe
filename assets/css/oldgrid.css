@@ -1,0 +1,80 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 0.5fr;
+  gap: 1px 1px;
+  grid-template-areas: "profil profil navbar navbar navbar navbar" "profil profil description description description description" "personnality personnality experiences experiences experiences experiences" "personnality personnality skills skills skills skills" ". . interest interest interest interest" ". . taste taste taste taste" ". . contact contact contact contact" "footer footer footer footer footer footer";
+}
+
+.profil {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "picture name name" "picture jobs jobs";
+  grid-area: profil;
+}
+
+.picture { grid-area: picture; }
+
+.name { grid-area: name; }
+
+.jobs { grid-area: jobs; }
+
+.description { grid-area: description; }
+
+.navbar { grid-area: navbar; }
+
+.experiences { grid-area: experiences; }
+
+.skills { grid-area: skills; }
+
+.personnality {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "attribute attribute attribute" "language language language" "travel travel travel";
+  grid-area: personnality;
+}
+
+.attribute { grid-area: attribute; }
+
+.language { grid-area: language; }
+
+.travel { grid-area: travel; }
+
+.interest { grid-area: interest; }
+
+.taste {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "like like dislike dislike" "like like dislike dislike";
+  grid-area: taste;
+}
+
+.like { grid-area: like; }
+
+.dislike { grid-area: dislike; }
+
+.contact { grid-area: contact; }
+
+.footer { grid-area: footer; }
+
+/* For presentation only, no need to copy the code below */
+/* .grid-container * { 
+ border: 1px solid red;
+ position: relative;
+}
+
+.grid-container *:after { 
+ content:attr(class);
+ position: absolute;
+ top: 0;
+ left: 0;
+} */
+

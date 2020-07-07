@@ -1,0 +1,142 @@
+body{
+    background-image: url(/assets/img/Grey-background-for-site11.webp);
+    background-size: cover;
+    width: 80vw;
+    margin: auto;
+    border: double black 2px;
+}
+ul.picme{
+    height: auto;
+    width: 50vw;       
+    text-align: center;  
+    list-style: none;  
+          
+}
+li.picme{
+    padding-bottom: 10px;
+    font-size: x-large;
+    font-weight: bold; 
+    width: 70%;                
+}
+h1{
+    text-align: center;
+}
+img.picme{
+    height: 80%;
+    width: 50%;
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.9);  
+}
+.wrapper{
+    width: 100%;
+}
+.story{
+    width: 80%;
+    height: auto;
+    padding: 20px 15px 5px 15px;
+    text-align: center;
+    margin: auto;
+    
+}
+.storyskills{
+    background: rgba(255,255,255,0.4);
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5); 
+    width: 70%;
+} 
+/* skillsbar */
+/*= Skills */
+/* SKILLS */
+
+/* SKILLS */
+#skills {
+    width: 40%;
+    padding: 0px 15px 25px 15px;
+    color: black;   
+    margin: auto;
+  }
+  
+  .skills-text {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .skills-title {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-title.underline:before {
+    width: 40px;
+  }
+  
+  .skills-list {
+    overflow: hidden;
+    position: relative;
+    z-index: 10
+  }
+  
+  .skill-name:after {
+    background-color: #999797;
+    content: '';
+    display: block;
+    height:1rem;
+    position: relative;      
+    top: 3px;
+    /*top: 1rem;*/
+    width: 100%;
+  }
+  
+  .skill-percent {
+    font-size: 0;
+    height: 1rem;
+    position: relative;
+    top: -.8rem;
+    left: -40px;
+    transition: 3s linear;
+    width: 0;
+  }
+  
+  /* SKILL BAR COLORS */
+  
+  .skill-percent-html {
+    background-color: #FF5C00;
+  }
+  .skill-percent-css {
+    background-color: #00B1DB;
+  }
+ 
+  .skill-percent-javascript {
+    background-color: #FF8B00;
+  }
+  .skill-percent-wordpress {
+    background-color: #0073b0;
+  }
+  .skill-percent-php {
+    background-color: #464c99;
+  }
+  .skill-percent-git {
+    background-color: #ff5c00;
+  }
+  
+  /* Heading Underline */
+  
+  .underline {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .underline:before {
+    background-color: #fff;
+    bottom: -15px;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
