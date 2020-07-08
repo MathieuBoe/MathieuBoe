@@ -1,142 +1,373 @@
-body{
-    background-image: url(/assets/img/Grey-background-for-site11.webp);
-    background-size: cover;
-    width: 80vw;
-    margin: auto;
-    border: double black 2px;
+body {
+  background-image: url(/assets/img/Grey-background-for-site11.webp);
+  background-size: cover;
+  width: 80vw;
+  margin: auto;
+  border: double black 2px;
 }
-ul.picme{
-    height: auto;
-    width: 50vw;       
-    text-align: center;  
-    list-style: none;  
-          
+
+ul.picme {
+  height: auto;
+  width: 50vw;
+  text-align: center;
+  list-style: none;
+
 }
-li.picme{
-    padding-bottom: 10px;
-    font-size: x-large;
-    font-weight: bold; 
-    width: 70%;                
+
+li.picme {
+  padding-bottom: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  width: 70%;
 }
-h1{
-    text-align: center;
+
+h1 {
+  text-align: center;
 }
-img.picme{
-    height: 80%;
-    width: 50%;
-    -webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.9);
-    -moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.9);
-    box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.9);  
+
+img.picme {
+  height: 80%;
+  width: 50%;
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.9);
 }
-.wrapper{
-    width: 100%;
+
+.wrapper {
+  width: 100%;
 }
-.story{
-    width: 80%;
-    height: auto;
-    padding: 20px 15px 5px 15px;
-    text-align: center;
-    margin: auto;
-    
+
+.story {
+  width: 80%;
+  height: auto;
+  padding: 20px 15px 5px 15px;
+  text-align: center;
+  margin: auto;
+
 }
-.storyskills{
-    background: rgba(255,255,255,0.4);
-    color: #333;
-    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
-    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5); 
-    width: 70%;
-} 
+
+.storyskills {
+  background: rgba(255, 255, 255, 0.4);
+  color: #333;
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
+  width: 70%;
+}
+
 /* skillsbar */
 /*= Skills */
 /* SKILLS */
 
 /* SKILLS */
 #skills {
-    width: 40%;
-    padding: 0px 15px 25px 15px;
-    color: black;   
-    margin: auto;
-  }
+  width: 40%;
+  padding: 0px 15px 25px 15px;
+  color: black;
+  margin: auto;
+}
+
+.skills-text {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.skills-title {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.skills-title.underline:before {
+  width: 40px;
+}
+
+.skills-list {
+  overflow: hidden;
+  position: relative;
+  z-index: 10;    
+}
+
+.skill-name:after {
+  background-color: #999797;
+  content: '';
+  display: block;
+  height: 1rem;
+  position: relative;
+  top: 3px;
+  /*top: 1rem;*/
+  width: 100%;
+}
+
+.skill-percent {
+  font-size: 0;
+  height: 1rem;
+  position: relative;
+  top: -.8rem;
+  left: -40px;
+  transition: 3s linear;
+  width: 0;
+}
+
+/* SKILL BAR COLORS */
+
+.skill-percent-html {
+  background-color: #FF5C00;
+}
+
+.skill-percent-css {
+  background-color: #00B1DB;
+}
+
+.skill-percent-javascript {
+  background-color: #FF8B00;
+}
+
+.skill-percent-wordpress {
+  background-color: #0073b0;
+}
+
+.skill-percent-php {
+  background-color: #464c99;
+}
+
+.skill-percent-git {
+  background-color: #2cfa25;
+}
+
+
+/* Heading Underline */
+
+.underline {
+  display: inline-block;
+  position: relative;
+}
+
+.underline:before {
+  background-color: #fff;
+  bottom: -15px;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* skillwrapper */
+#skillmainwrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* portfolio */
+#portfolio {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
   
-  .skills-text {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;  
-    font-size: 20px;
-    text-align: center;
+}
+
+.website {
+  text-align: center;
+  width: 100%;
+}
+
+.webimg {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 15vw;
+  height: 30vh;
+  filter: grayscale(100%);
+  transition: transform .2s;
+}
+
+.webimg:hover {
+  filter: none;
+  transform: scale(1.5);
+}
+
+/* TIMELINE */
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #463f3a;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+  transition: all .5s ease-in-out;
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #463f3a;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #463f3a;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #463f3a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.container.left .date {
+  right: -75px;
+}
+
+.container.right .date {
+  left: -75px;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: #e0afa0;
+  border: 2px solid #463f3a;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #463f3a;
+  z-index: 1;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: #e0afa0;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #463f3a;
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
   }
-  
-  .skills-title {
-    display: block;
-    margin-bottom: 2rem;
-  }
-  
-  .skills-title.underline:before {
-    width: 40px;
-  }
-  
-  .skills-list {
-    overflow: hidden;
-    position: relative;
-    z-index: 10
-  }
-  
-  .skill-name:after {
-    background-color: #999797;
-    content: '';
-    display: block;
-    height:1rem;
-    position: relative;      
-    top: 3px;
-    /*top: 1rem;*/
+
+  .container {
     width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
   }
-  
-  .skill-percent {
-    font-size: 0;
-    height: 1rem;
-    position: relative;
-    top: -.8rem;
-    left: -40px;
-    transition: 3s linear;
-    width: 0;
+
+  .container.right {
+    left: 0%;
   }
-  
-  /* SKILL BAR COLORS */
-  
-  .skill-percent-html {
-    background-color: #FF5C00;
+
+  .container.left::after, 
+  .container.right::after {
+    left: 82px;
   }
-  .skill-percent-css {
-    background-color: #00B1DB;
+
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent #463f3a transparent transparent;
   }
- 
-  .skill-percent-javascript {
-    background-color: #FF8B00;
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
   }
-  .skill-percent-wordpress {
-    background-color: #0073b0;
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
   }
-  .skill-percent-php {
-    background-color: #464c99;
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
   }
-  .skill-percent-git {
-    background-color: #ff5c00;
-  }
-  
-  /* Heading Underline */
-  
-  .underline {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .underline:before {
-    background-color: #fff;
-    bottom: -15px;
-    content: '';
-    height: 2px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-  }
+}

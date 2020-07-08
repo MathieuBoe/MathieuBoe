@@ -7,7 +7,8 @@ ul.navbar{
     list-style: none;
     border: 2px black solid;
     border-radius: 20px 20px 0px 0px;
-    background: rgba(0, 0, 0, 0.4); 
+    background: #F4F3EE; 
+    opacity: 0.8;
     
 }
 a{
@@ -16,5 +17,5 @@ a{
     font-size: x-large;
 }
 a:hover{
-    color: rgba(170, 46, 15, 0.8);
+    color: #463f3a;
 }
