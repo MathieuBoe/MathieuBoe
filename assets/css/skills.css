@@ -1,0 +1,101 @@
+/* skillwrapper */
+#skillmainwrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* SKILLS */
+#skills {
+    width: 40%;
+    padding: 0px 15px 25px 15px;
+    color: black;
+    margin: auto;
+}
+
+.skills-text {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.skills-title {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.skills-title.underline:before {
+    width: 40px;
+}
+
+.skills-list {
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.skill-name:after {
+    background-color: #999797;
+    content: '';
+    display: block;
+    height: 1rem;
+    position: relative;
+    top: 3px;
+    /*top: 1rem;*/
+    width: 100%;
+}
+
+.skill-percent {
+    font-size: 0;
+    height: 1rem;
+    position: relative;
+    top: -.8rem;
+    left: -40px;
+    transition: 3s linear;
+    width: 0;
+}
+
+/* SKILL BAR COLORS */
+
+.skill-percent-html {
+    background-color: #FF5C00;
+}
+
+.skill-percent-css {
+    background-color: #00B1DB;
+}
+
+.skill-percent-javascript {
+    background-color: #FF8B00;
+}
+
+.skill-percent-wordpress {
+    background-color: #0073b0;
+}
+
+.skill-percent-php {
+    background-color: #464c99;
+}
+
+.skill-percent-git {
+    background-color: #2cfa25;
+}
+
+
+/* Heading Underline */
+
+.underline {
+    display: inline-block;
+    position: relative;
+}
+
+.underline:before {
+    background-color: #fff;
+    bottom: -15px;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}

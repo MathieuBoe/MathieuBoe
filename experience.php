@@ -2,7 +2,7 @@
 <h1>Expériences</h1>
 <div class="timeline">
     <div class="container left">
-        <div class="date">2020c</div>
+        <div class="date">2020</div>
         <i class="icon fa fa-home"></i>
         <div class="content">
             <h2>Formation Développeur web et web mobile</h2>
@@ -19,7 +19,7 @@
     </div>
 
     <div class="container right">
-        <div class="date">2019</div>
+        <div class="date">2018 - 2019</div>
         <i class="icon fa fa-user"></i>
         <div class="content">
             <h2>Gestionnaire UGIPS Gestion (AXA)</h2>
@@ -33,7 +33,7 @@
         </div>
     </div>
     <div class="container left">
-        <div class="date">2018</div>
+        <div class="date">2017 - 2018</div>
         <i class="icon fa fa-running"></i>
         <div class="content">
             <h2>Employé qualifié Action</h2>
