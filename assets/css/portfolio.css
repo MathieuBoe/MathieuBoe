@@ -22,5 +22,8 @@
 
 .webimg:hover {
     filter: none;
-    transform: scale(1.5);
+    transform: scale(1.2);
+}
+.describefolio{
+    font-size: 2rem;
 }

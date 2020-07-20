@@ -14,12 +14,12 @@
 <body>
 <header>
         <ul class="navbar">
-            <li class="navbar"><a href="index.php">Présentation</a></li>
-            <li class="navbar"><a href="experience.php">Expériences</a></li>
-            <li class="navbar"><a href="skills.php">Compétences</a></li>
-            <li class="navbar"><a href="project.php">Projets réalisés</a></li>
-            <li class="navbar"><a href="hobbies.php">Loisirs</a></li>
-            <li class="navbar"><a href="contact.php">Contact</a></li>
+            <li class="navbar"><a href="index.html">Présentation</a></li>
+            <li class="navbar"><a href="experience.html">Expériences</a></li>
+            <li class="navbar"><a href="skills.html">Compétences</a></li>
+            <li class="navbar"><a href="project.html">Projets réalisés</a></li>
+            <li class="navbar"><a href="hobbies.html">Loisirs</a></li>
+            <li class="navbar"><a href="contact.html">Contact</a></li>
         </ul>
     </header>   
   
