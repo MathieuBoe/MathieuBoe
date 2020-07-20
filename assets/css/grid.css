@@ -1,7 +1,7 @@
 .wrapper{
     display: grid;
     grid-template-areas: 'picme story'
-    'picme skills';
+    'picme story';
     grid-template-columns: 50% 50%;    
 }
 ul.picme{
@@ -9,7 +9,4 @@ ul.picme{
 }
 .story{
     grid-area: story;
-}
-#skills{
-    grid-area: skills;
 }

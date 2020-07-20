@@ -1,9 +1,16 @@
+html{
+  background-color: #333;
+  font-size: 62.5%; /* Ré-équilibrage du Rem face au Pixel pour des calculs simples */
+}
 body {
   background-image: url(/assets/img/Grey-background-for-site11.webp);
   background-size: cover;
   width: 80vw;
   margin: auto;
   border: double black 2px;
+  -webkit-box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.75);
 }
 
 ul.picme {
@@ -42,6 +49,7 @@ img.picme {
   padding: 20px 15px 5px 15px;
   text-align: center;
   margin: auto;
+  font-size: 2rem;
 }
 
 .storyskills {
@@ -50,6 +58,10 @@ img.picme {
   -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
   width: 70%;
+}
+.storytelling {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 /* video loisir */
@@ -61,4 +73,13 @@ li {
   list-style: none;
   padding-top: 5px;
   margin: auto;
+}
+
+/* Mise en page hobbies */
+.game{
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+}
+.science, .sport{
+  padding-bottom: 5vh;
 }
