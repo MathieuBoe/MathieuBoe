@@ -1,20 +1,24 @@
-html{
+html {
   background-color: #333;
-  font-size: 62.5%; /* Ré-équilibrage du Rem face au Pixel pour des calculs simples */
+  font-size: 62.5%;
+  /* Ré-équilibrage du Rem face au Pixel pour des calculs simples */
 }
+
 body {
   background-image: url(/assets/img/Grey-background-for-site11.webp);
   background-size: cover;
   width: 80vw;
   margin: auto;
   border: double black 2px;
-  -webkit-box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.75);
 }
-.wrapper{
+
+.wrapper {
   padding-top: 5vh;
 }
+
 ul.picme {
   height: auto;
   width: 50vw;
@@ -38,7 +42,7 @@ img.picme {
   width: 50%;
   -webkit-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.9);
   -moz-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.9);
-  box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.9);  
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.9);
 }
 
 .wrapper {
@@ -61,6 +65,7 @@ img.picme {
   box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
   width: 70%;
 }
+
 .storytelling {
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -78,19 +83,26 @@ li {
 }
 
 /* Mise en page hobbies */
-.game{
+.game {
   padding-top: 5vh;
   padding-bottom: 15vh;
 }
-.science, .sport{
+
+.science,
+.sport {
   padding-bottom: 5vh;
 }
+
 .hobbies {
   font-size: 2rem;
 }
-h2, h3, h4{
+
+h2,
+h3,
+h4 {
   font-size: 3.5rem;
 }
-.zindex{
+
+.zindex {
   z-index: 1;
 }
