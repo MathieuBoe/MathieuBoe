@@ -67,13 +67,13 @@ textarea {
     width: 100%;
 }
 
-.contact-form {
+.gform {
     width: 50%;
     margin: 0 auto;
     padding: 40px;
 }
 
-.contact-form .input-block {
+.gform .input-block {
     background-color: transparent;
     border: none;
     width: 100%;
@@ -88,18 +88,18 @@ textarea {
     transition: all 0.3s ease-out;
 }
 
-.contact-form .input-block.focus {}
+.gform .input-block.focus {}
 
-.contact-form .input-block.textarea {
+.gform .input-block.textarea {
     height: auto;
 }
 
-.contact-form .input-block.textarea .form-control {
+.gform .input-block.textarea .form-control {
     height: auto;
     resize: none;
 }
 
-.contact-form .input-block label {
+.gform .input-block label {
     position: absolute;
     left: 10px;
     top: 25px;
@@ -112,7 +112,7 @@ textarea {
     line-height: 10px;
 }
 
-.contact-form .input-block .form-control {
+.gform .input-block .form-control {
     background-color: transparent;
     margin: 0;
     outline: none;
@@ -132,11 +132,11 @@ textarea {
     color: #333;
 }
 
-.contact-form .input-block .form-control:focus label {
+.gform .input-block .form-control:focus label {
     top: 0;
 }
 
-.contact-form .square-button {
+.gform .square-button {
     background-color: #463f3a;
     color: #fff;
     font-size: 26px;
@@ -162,8 +162,8 @@ textarea {
     transition: all 0.3s ease-out;
 }
 
-.contact-form .square-button:hover,
-.contact-form .square-button:focus {
+.gform .square-button:hover,
+.gform .square-button:focus {
     background-color: #66CC99;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
     transform: translateY(-4px);
@@ -176,14 +176,14 @@ textarea {
 }
 
 @media (max-width: 868px) {
-    .contact-form {
+    .gform {
         width: 100%;
         padding: 40px;
     }
 }
 
 @media (max-width: 568px) {
-    .contact-form {
+    .gform {
         padding: 10px;
     }
 }

@@ -1,7 +1,8 @@
 .wrapper {
     display: grid;
     grid-template-areas: 'picme story'
-        'picme story';
+        'picme story'
+        'picme link';
     grid-template-columns: 50% 50%;
 }
 
@@ -11,4 +12,8 @@ ul.picme {
 
 .story {
     grid-area: story;
+}
+
+.link{
+    grid-area: link;
 }

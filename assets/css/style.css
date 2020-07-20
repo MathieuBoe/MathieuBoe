@@ -18,7 +18,12 @@ body {
 .wrapper {
   padding-top: 5vh;
 }
-
+.link {  
+  padding: 3vh;
+}
+.indexlink {  
+  padding: 3vh;
+}
 ul.picme {
   height: auto;
   width: 50vw;

@@ -29,46 +29,51 @@
   <div id="section">
 
     <section class="contact-wrap">
-      <form action="" class="contact-form">
+      <form id="gform" action="mailto:mathieuboe60@gmail.com" class="gform" method="POST" data-email="mathieuboe60@gmail.com" enctype="text/plain">
         <div class="col-sm-6">
           <div class="input-block">
-            <label for="">Prénom</label>
-            <input type="text" class="form-control">
+            <label for="firstname">Prénom</label>
+            <input type="text" class="firstname form-control" id="firstname">
           </div>
         </div>
         <div class="col-sm-6">
           <div class="input-block">
-            <label for="">Nom</label>
-            <input type="text" class="form-control">
+            <label for="name">Nom</label>
+            <input type="text" class="name form-control" id="name">
           </div>
         </div>
         <div class="col-sm-12">
           <div class="input-block">
-            <label for="">Email</label>
-            <input type="text" class="form-control">
+            <label for="email">Email</label>
+            <input type="email" class="email form-control" id="email">
           </div>
         </div>
         <div class="col-sm-12">
           <div class="input-block">
-            <label for="">Sujet</label>
-            <input type="text" class="form-control">
+            <label for="subject">Sujet</label>
+            <input type="text" class="subject form-control" id="subject">
           </div>
         </div>
         <div class="col-sm-12">
           <div class="input-block textarea">
-            <label for="">Entrez votre message ici</label>
-            <textarea rows="3" type="text" class="form-control"></textarea>
+            <label for="message">Entrez votre message ici</label>
+            <textarea rows="3" type="text" class="message form-control" id="message"></textarea>
           </div>
         </div>
         <div class="col-sm-12">
           <button class="square-button">Envoyer</button>
         </div>
+        <div style="display:none" class="thankyou_message">
+          <!-- You can customize the thankyou message by editing the code below -->
+          <h2><em>Message envoyé</em> Je vous recontacte très rapidement !!
+          </h2>
+         </div>
       </form>
     </section>
 
   </div>
 
-
+ 
   <script src="assets/js/jquery-3.5.1.min.js"></script>
   <script src="jquery.hoverplay.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
