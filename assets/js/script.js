@@ -55,14 +55,14 @@ const wrapper = document.querySelector('.wrapper')
 if (wrapper) wrapper.classList.add('magictime', 'puffIn')
 
 
-const containerleft = document.querySelectorAll('.container.left')
+const containerleft = document.querySelectorAll('.direction-l')
 if (containerleft) {
   containerleft.forEach(function (element) {
     element.classList.add('magictime', 'tinLeftIn', 'zindex')
   })
 }
 
-const containerright = document.querySelectorAll('.container.right')
+const containerright = document.querySelectorAll('.direction-r')
 if (containerright) {
   containerright.forEach(function (element) {
     element.classList.add('magictime', 'tinRightIn', 'zindex')
