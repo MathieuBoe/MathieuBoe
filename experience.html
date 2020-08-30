@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MathieuBoe</title>
     <link rel="stylesheet" href="assets/css/grid.css">
-    <link rel="stylesheet" href="assets/css/timeline.css">
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/scss/magic-master/dist/magic.min.css">
+
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
+    <navhead>
         <ul class="navbar">
             <li class="navbar"><a href="index.html">Présentation</a></li>
             <li class="navbar"><a href="experience.html">Expériences</a></li>
@@ -22,74 +24,68 @@
             <li class="navbar"><a href="hobbies.html">Loisirs</a></li>
             <li class="navbar"><a href="contact.html">Contact</a></li>
         </ul>
-    </header>
+    </navhead>
 
-    <div class="timeline">
-        <div class="container left">
-            <div class="date">2020</div>
-            <i class="icon fa fa-home"></i>
-            <div class="content">
-                <h2>Formation Développeur web et web mobile</h2>
-                <p>
-                    Apprentissage des langages HTML / CSS / Javascript / PHP
-                </p>
-                <p>
-                    Utilisation du CMS Wordpress
-                </p>
-                <p>
-                    Réalisation de projets
-                </p>
-            </div>
-        </div>
+    <ul class="timeline">
 
-        <div class="container right">
-            <div class="date">2018 - 2019</div>
-            <i class="icon fa fa-user"></i>
-            <div class="content">
-                <h2>Gestionnaire UGIPS Gestion (AXA)</h2>
-                <p>
-                    Formateur sur les logiciels utilisés
-                </p>
-                <p>
-                    Amélioration et optimisation de l'utilisation des outils de travail
-                </p>
-                <p>Gestion des dossiers adhérents</p>
+        <!-- Item 1 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="hexa"></span>
+                    <span class="flag">Formation Développeur Web et Web Mobile</span>
+                    <span class="time-wrapper"><span class="time">2020 - Présent</span></span>
+                </div>
+                <div class="desc">Apprentissage des langages HTML / CSS / Javascript / PHP </div>
+                <div class="desc">Utilisation du CMS Wordpress </div>
+                <div class="desc">Réalisation de projets </div>
             </div>
-        </div>
-        <div class="container left">
-            <div class="date">2017 - 2018</div>
-            <i class="icon fa fa-running"></i>
-            <div class="content">
-                <h2>Employé qualifié Action</h2>
-                <p>
-                    Accueil des clients (information, retour produit, caisse)
-                </p>
-                <p>
-                    Réception des commandes et mise en rayon
-                </p>
+        </li>
+      
+        <!-- Item 2 -->
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="hexa"></span>
+                    <span class="flag">Gestionnaire UGIPS Gestion (AXA)</span>
+                    <span class="time-wrapper"><span class="time">2018 - 2019</span></span>
+                </div>
+                <div class="desc">Formateur sur les logiciels utilisés</div>
+                <div class="desc">Amélioration et optimisation de l'utilisation des outils de travail</div>
+                <div class="desc">Gestion des dossiers adhérents</div>
             </div>
-        </div>
+        </li>
+    
+        <!-- Item 3 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="hexa"></span>
+                    <span class="flag">Employé qualifié Action</span>
+                    <span class="time-wrapper"><span class="time">2017 - 2018</span></span>
+                </div>
+                <div class="desc">Accueil des clients (informaiton, retour produit, caisse)</div>
+                <div class="desc">Réception des commandes et mise en rayon</div>
+            </div>
+        </li>
+      
+         <!-- Item 4 -->
+         <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="hexa"></span>
+                    <span class="flag">Stages Assistant Manager</span>
+                    <span class="time-wrapper"><span class="time">2015</span></span>
+                </div>
+                <div class="desc">Mise à jour de tableau de bord</div>
+                <div class="desc">Mise en forme et gestion des documents électroniques</div>
+                <div class="desc">Création de courrier type pour le personnel</div>
+                <div class="desc">Mise en place d'outil de suivi pour la gestion du personnel et matériel</div>
+            </div>
+        </li>
+    </ul> 
+    
 
-        <div class="container right">
-            <div class="date">2015</div>
-            <i class="icon fa fa-certificate"></i>
-            <div class="content">
-                <h2>Stages Assistant Manager</h2>
-                <p>
-                    Mise à jour de tableau de bord
-                </p>
-                <p>
-                    Mise en forme et gestion des documents électroniques
-                </p>
-                <p>
-                    Création de courrier type pour le personnel
-                </p>
-                <p>
-                    Mise en place d'outil de suivi pour la gestion du personel et matériel
-                </p>
-            </div>
-        </div>
-    </div>
 
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="jquery.hoverplay.js"></script>

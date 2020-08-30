@@ -3,17 +3,19 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .website {
     text-align: center;
     width: 100%;
+    
 }
 
-.webimg {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+
+
+.webimg {    
     width: 15vw;
     height: 30vh;
     filter: grayscale(100%);
@@ -22,7 +24,7 @@
 
 .webimg:hover {
     filter: none;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 .describefolio {

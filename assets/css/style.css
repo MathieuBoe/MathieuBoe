@@ -61,46 +61,25 @@ img.picme {
   text-align: center;
   margin: auto;
   font-size: 2rem;
+  background: rgba(255, 255, 255, 0.4);
+  color: #333;
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
-.storyskills {
+/* .storyskills {
   background: rgba(255, 255, 255, 0.4);
   color: #333;
   -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
   width: 70%;
-}
+} */
 
 .storytelling {
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
 
-/* video loisir */
-.hobbywrapper {
-  text-align: center;
-}
-
-li {
-  list-style: none;
-  padding-top: 5px;
-  margin: auto;
-}
-
-/* Mise en page hobbies */
-.game {
-  padding-top: 5vh;
-  padding-bottom: 15vh;
-}
-
-.science,
-.sport {
-  padding-bottom: 5vh;
-}
-
-.hobbies {
-  font-size: 2rem;
-}
 
 h2,
 h3,

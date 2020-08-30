@@ -1,28 +1,31 @@
 /* skillwrapper */
 #skillmainwrapper {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap;       
 }
-
+.row{
+    display: inline;
+}
 /* SKILLS */
 #skills {
     width: 40%;
     padding: 0px 15px 25px 15px;
     color: black;
-    margin: auto;
+    text-align: center;   
 }
 
 .skills-text {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 1.4rem;
     text-align: center;
 }
 
 .skills-title {
     display: block;
     margin-bottom: 2rem;
+    font-size: 2.2rem;
 }
 
 .skills-title.underline:before {
@@ -41,8 +44,7 @@
     display: block;
     height: 1rem;
     position: relative;
-    top: 3px;
-    /*top: 1rem;*/
+    top: 0.2rem;    
     width: 100%;
 }
 
@@ -51,7 +53,7 @@
     height: 1rem;
     position: relative;
     top: -.8rem;
-    left: -40px;
+    
     transition: 3s linear;
     width: 0;
 }

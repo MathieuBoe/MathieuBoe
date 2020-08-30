@@ -1,0 +1,31 @@
+/* video loisir */
+.hobbywrapper {
+    text-align: center;
+  }
+  
+  li {
+    list-style: none;
+    padding-top: 5px;
+    margin: auto;
+  }
+  
+  /* Mise en page hobbies */
+  .game {
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+  }
+  
+  .science,
+  .sport {
+    padding-bottom: 5vh;
+  }
+  
+  .hobbies {
+    font-size: 2rem;
+  }
+  
+  img {
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
